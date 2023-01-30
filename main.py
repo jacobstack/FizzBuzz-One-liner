@@ -17,6 +17,3 @@ print("Version 1:", group)
 
 # Version 2
 print("Version 2:", list(map(lambda i: "Fizz"*(i%3==0)+"Buzz"*(i%5==0) or str(i), range(1,101))))
-
-
-
